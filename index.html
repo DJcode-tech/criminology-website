@@ -1,472 +1,212 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Criminology Insights</title>
-  <meta name="description" content="A professional criminology website: crime vs deviance, types of crime, unreported crime, consequences, and why to take criminology." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inside Crime | Criminology Project</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-  <a class="skip" href="#main">Skip to content</a>
 
-  <header class="header" id="top">
-    <div class="container header__inner">
-      <div class="brand">
-        <div class="brand__mark" aria-hidden="true">CI</div>
-        <div class="brand__text">
-          <div class="brand__name">Criminology Insights</div>
-          <div class="brand__tag">Understand crime • Understand society</div>
-        </div>
-      </div>
+<header class="nav">
 
-      <button class="nav__toggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu">
-        <span></span><span></span><span></span>
-      </button>
+<div class="logo">Inside Crime</div>
 
-      <nav class="nav" id="nav">
-        <a href="#crime-deviance">Crime vs Deviance</a>
-        <a href="#types">Types of Crime</a>
-        <a href="#post-types">Post: Types</a>
-        <a href="#unreported">Unreported Crime</a>
-        <a href="#post-unreported">Post: Why Unreported</a>
-        <a href="#consequences">Consequences</a>
-        <a href="#post-consequences">Post: Consequences</a>
-        <a class="nav__cta" href="#take-class">Why Take Criminology?</a>
-      </nav>
-    </div>
-  </header>
+<nav>
+<a href="#about">Crime vs Deviance</a>
+<a href="#types">Crime Types</a>
+<a href="#case">Case Study</a>
+<a href="#unreported">Unreported Crime</a>
+<a href="#consequences">Consequences</a>
+<a href="#class">Why Study It</a>
+</nav>
 
-  <main id="main">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container hero__grid">
-        <div class="hero__copy">
-          <p class="pill">Criminology Website • Core Concepts + Posts</p>
-          <h1>Crime is more than headlines.</h1>
-          <p class="lead">
-            Criminology studies crime, deviance, victims, offenders, and the systems that shape harm and justice.
-            This site explains the essentials clearly—and shows why unreported crime matters.
-          </p>
-          <div class="hero__actions">
-            <a class="btn btn--primary" href="#types">Explore Crime Types</a>
-            <a class="btn btn--ghost" href="#unreported">Why Crime Goes Unreported</a>
-          </div>
+</header>
 
-          <div class="stats">
-            <div class="stat">
-              <div class="stat__num">6</div>
-              <div class="stat__label">Crime categories</div>
-            </div>
-            <div class="stat">
-              <div class="stat__num">3</div>
-              <div class="stat__label">Class “posts” included</div>
-            </div>
-            <div class="stat">
-              <div class="stat__num">100%</div>
-              <div class="stat__label">Rubric coverage</div>
-            </div>
-          </div>
-        </div>
 
-        <div class="hero__card" role="region" aria-label="Key takeaways">
-          <h2 class="card__title">Quick map of the site</h2>
-          <ul class="checklist">
-            <li><strong>Crime vs Deviance</strong> — definitions + differences</li>
-            <li><strong>Types of Crime</strong> — framework + examples</li>
-            <li><strong>Why Crime Goes Unreported</strong> — personal + social reasons</li>
-            <li><strong>Consequences</strong> — impacts on victims, data, and policy</li>
-            <li><strong>Promote Criminology</strong> — why students should take it</li>
-          </ul>
-          <p class="muted small">
-            Tip: Replace the case study with a real case from a reliable source and add citations in the footer.
-          </p>
-        </div>
-      </div>
-    </section>
+<section class="hero">
 
-    <!-- CRIME VS DEVIANCE -->
-    <section class="section" id="crime-deviance">
-      <div class="container">
-        <div class="section__head">
-          <h2>Understanding Crime vs Deviance</h2>
-          <p class="muted">Same world, different rules: laws vs norms.</p>
-        </div>
+<img src="images/hero.jpg" class="hero-img">
 
-        <div class="grid grid--2">
-          <article class="panel">
-            <h3>What is <span class="accent">Crime</span>?</h3>
-            <p>
-              <strong>Crime</strong> is behavior that violates <strong>formal laws</strong> created and enforced by the state.
-              Crimes are punishable through legal systems (police, courts, corrections). What counts as crime can change
-              as laws change.
-            </p>
-            <div class="mini">
-              <div class="mini__tag">Key idea</div>
-              <div class="mini__text">Crime = written rule broken (law).</div>
-            </div>
-          </article>
+<div class="hero-text">
 
-          <article class="panel">
-            <h3>What is <span class="accent">Deviance</span>?</h3>
-            <p>
-              <strong>Deviance</strong> is behavior that violates <strong>social norms</strong>—unwritten expectations of what a group
-              considers acceptable. Deviance varies across cultures and communities, and it is not always illegal.
-            </p>
-            <div class="mini">
-              <div class="mini__tag">Key idea</div>
-              <div class="mini__text">Deviance = social rule broken (norm).</div>
-            </div>
-          </article>
-        </div>
+<h1>Understanding Crime Beyond Headlines</h1>
 
-        <div class="callout">
-          <h3>Why the difference matters</h3>
-          <p>
-            Criminology asks more than “what happened?” It asks <strong>who is harmed</strong>, <strong>why certain acts are labeled
-            criminal</strong>, and why enforcement differs across people and places. This matters especially for the
-            <strong>dark figure of crime</strong>—harm that exists but never shows up in official statistics.
-          </p>
-        </div>
-      </div>
-    </section>
+<p>
+Crime statistics tell part of the story.  
+Criminology looks deeper — why crimes happen, why many never get reported, and how societies respond.
+</p>
 
-    <!-- TYPES -->
-    <section class="section section--alt" id="types">
-      <div class="container">
-        <div class="section__head">
-          <h2>Types of Crime</h2>
-          <p class="muted">A practical framework used in criminology.</p>
-        </div>
+<a href="#about" class="button">Explore</a>
 
-        <div class="cards">
-          <article class="card">
-            <h3>Violent Crime</h3>
-            <p>Crimes involving force or threat of force against a person.</p>
-            <p class="small muted"><strong>Examples:</strong> assault, robbery, homicide</p>
-          </article>
-          <article class="card">
-            <h3>Property Crime</h3>
-            <p>Crimes involving theft or damage of property, usually without direct violence.</p>
-            <p class="small muted"><strong>Examples:</strong> burglary, theft, vandalism</p>
-          </article>
-          <article class="card">
-            <h3>White-Collar Crime</h3>
-            <p>Non-violent financial crimes often committed in professional settings through deception.</p>
-            <p class="small muted"><strong>Examples:</strong> fraud, embezzlement</p>
-          </article>
-          <article class="card">
-            <h3>Cybercrime</h3>
-            <p>Crimes where computers/networks are the tool, target, or environment.</p>
-            <p class="small muted"><strong>Examples:</strong> phishing, identity theft, ransomware</p>
-          </article>
-          <article class="card">
-            <h3>Organized Crime</h3>
-            <p>Criminal activity coordinated by structured groups for profit or power.</p>
-            <p class="small muted"><strong>Examples:</strong> trafficking networks, illegal gambling</p>
-          </article>
-          <article class="card">
-            <h3>Public Order Crime</h3>
-            <p>Acts criminalized to maintain “order,” often based on moral/public norms.</p>
-            <p class="small muted"><strong>Examples:</strong> disorderly conduct (varies by law)</p>
-          </article>
-        </div>
-      </div>
-    </section>
+</div>
 
-    <!-- POST: TYPES OF CRIME -->
-    <section class="section" id="post-types">
-      <div class="container">
-        <div class="section__head">
-          <h2>Post: Different Types of Crime</h2>
-          <p class="muted">Definitions • Victims & Offenders • Public Awareness • Examples</p>
-        </div>
+</section>
 
-        <div class="grid grid--2">
-          <article class="panel">
-            <h3>Violent Crime</h3>
-            <ul class="bullet">
-              <li><strong>Definition:</strong> Force or threat of force against a person.</li>
-              <li><strong>Victims & offenders:</strong> Victims face physical + psychological harm; offenders range from acquaintances to strangers.</li>
-              <li><strong>Public awareness:</strong> High—often heavily covered by media.</li>
-              <li><strong>Examples:</strong> assault, armed robbery, homicide.</li>
-            </ul>
-          </article>
 
-          <article class="panel">
-            <h3>Property Crime</h3>
-            <ul class="bullet">
-              <li><strong>Definition:</strong> Taking or damaging property without direct violence against a person.</li>
-              <li><strong>Victims & offenders:</strong> Individuals and businesses; offenders often act opportunistically.</li>
-              <li><strong>Public awareness:</strong> Medium—common but less sensational.</li>
-              <li><strong>Examples:</strong> burglary, theft, motor vehicle theft.</li>
-            </ul>
-          </article>
+<section class="section" id="about">
 
-          <article class="panel">
-            <h3>White-Collar Crime</h3>
-            <ul class="bullet">
-              <li><strong>Definition:</strong> Financial crime committed through deception in professional settings.</li>
-              <li><strong>Victims & offenders:</strong> Customers, employees, shareholders, and the public; offenders may be high-status.</li>
-              <li><strong>Public awareness:</strong> Medium–Low—often complex and less visible.</li>
-              <li><strong>Examples:</strong> fraud, embezzlement, insider trading.</li>
-            </ul>
-          </article>
+<h2>Crime vs Deviance</h2>
 
-          <article class="panel">
-            <h3>Cybercrime</h3>
-            <ul class="bullet">
-              <li><strong>Definition:</strong> Crimes using digital systems as tool/target.</li>
-              <li><strong>Victims & offenders:</strong> Anyone online; offenders can be individuals or coordinated groups.</li>
-              <li><strong>Public awareness:</strong> Increasing—especially scams and data breaches.</li>
-              <li><strong>Examples:</strong> phishing, identity theft, ransomware.</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
+<div class="grid">
 
-    <!-- CASE STUDY -->
-    <section class="section section--alt" id="case-study">
-      <div class="container">
-        <div class="section__head">
-          <h2>Case Study: Cybercrime (Phishing & Identity Theft)</h2>
-          <p class="muted">One specific crime type + one detailed case (replace with a real sourced case for your final).</p>
-        </div>
+<div class="card">
 
-        <article class="panel">
-          <h3>Case Overview</h3>
-          <p>
-            A coordinated group sent messages pretending to be a bank, using urgency (“account locked”) to push victims to click
-            a link. The link led to a realistic fake login page designed to capture credentials and one-time codes.
-          </p>
+<h3>Crime</h3>
 
-          <h3>How the crime worked (step-by-step)</h3>
-          <ol class="steps">
-            <li>Victim receives a realistic text/email with time pressure.</li>
-            <li>Victim clicks a link to a fake website that mimics an official bank page.</li>
-            <li>Victim enters login credentials and (sometimes) verification codes.</li>
-            <li>Offenders access the account, transfer funds, or sell stolen data.</li>
-          </ol>
+<p>
+Crime is behavior that breaks the law. Laws are written rules created by governments. 
+If someone commits a crime, the legal system can punish them through fines, jail, or other penalties.
+</p>
 
-          <div class="grid grid--2">
-            <div class="mini big">
-              <div class="mini__tag">Victims</div>
-              <div class="mini__text">Everyday users—often busy, stressed, or unfamiliar with scam tactics.</div>
-            </div>
-            <div class="mini big">
-              <div class="mini__tag">Offenders</div>
-              <div class="mini__text">Groups using social engineering + technical setup (domains, fake pages, money mules).</div>
-            </div>
-          </div>
+</div>
 
-          <h3>Impact</h3>
-          <ul class="bullet">
-            <li><strong>Financial loss</strong> (direct theft)</li>
-            <li><strong>Emotional stress</strong> and loss of trust</li>
-            <li><strong>Time cost</strong> (bank calls, recovery, monitoring)</li>
-          </ul>
+<div class="card">
 
-          <p class="muted small">
-            Replace this with a real case (government cyber agency report, court report, or reputable news) and cite it.
-          </p>
-        </article>
-      </div>
-    </section>
+<h3>Deviance</h3>
 
-    <!-- WHY UNREPORTED -->
-    <section class="section" id="unreported">
-      <div class="container">
-        <div class="section__head">
-          <h2>Why Crime Goes Unreported</h2>
-          <p class="muted">Personal reasons + social reasons (the “dark figure of crime”).</p>
-        </div>
+<p>
+Deviance is behavior that goes against social expectations. Something can be deviant without being illegal.
+For example, acting extremely rude in public might be socially unacceptable but not criminal.
+</p>
 
-        <div class="grid grid--2">
-          <article class="panel">
-            <h3>Personal Reasons</h3>
-            <ul class="bullet">
-              <li><strong>Fear of retaliation:</strong> worrying the offender will come back.</li>
-              <li><strong>Shame/embarrassment:</strong> especially for scams, sexual violence, domestic violence.</li>
-              <li><strong>Minimizing harm:</strong> “It’s not serious enough.”</li>
-              <li><strong>Distrust in outcomes:</strong> expecting reporting to be stressful or pointless.</li>
-            </ul>
-          </article>
-          <article class="panel">
-            <h3>Social Reasons</h3>
-            <ul class="bullet">
-              <li><strong>Stigma and victim-blaming:</strong> pressure to stay silent.</li>
-              <li><strong>Barriers to access:</strong> language, time, transportation, legal knowledge.</li>
-              <li><strong>Negative prior experiences:</strong> fear of not being believed or treated fairly.</li>
-              <li><strong>Power dynamics:</strong> offender has influence (workplace, school, family, community).</li>
-            </ul>
-          </article>
-        </div>
-      </div>
-    </section>
+</div>
 
-    <!-- POST: WHY UNREPORTED -->
-    <section class="section section--alt" id="post-unreported">
-      <div class="container">
-        <div class="section__head">
-          <h2>Post: Why Crimes Go Unreported</h2>
-          <p class="muted">Includes 2 personal examples + 2 social examples (required).</p>
-        </div>
+</div>
 
-        <article class="panel">
-          <div class="grid grid--2">
-            <div>
-              <h3>2 Personal Reasons (Examples)</h3>
-              <ul class="bullet">
-                <li><strong>Fear of retaliation:</strong> A student avoids reporting bullying/assault because they fear escalation.</li>
-                <li><strong>Shame/embarrassment:</strong> A scam victim doesn’t report because they feel “stupid,” even though the scam was designed to trick people.</li>
-              </ul>
-            </div>
-            <div>
-              <h3>2 Social Reasons (Examples)</h3>
-              <ul class="bullet">
-                <li><strong>Community stigma:</strong> A victim is pressured to “keep it private” to protect family reputation.</li>
-                <li><strong>Access barriers:</strong> A worker doesn’t report wage theft due to language barriers and fear of losing their job.</li>
-              </ul>
-            </div>
-          </div>
+</section>
 
-          <div class="callout">
-            <h3>Key point</h3>
-            <p>
-              Underreporting isn’t just a personal decision—it often reflects fear, stigma, and barriers that reduce safety and trust.
-            </p>
-          </div>
-        </article>
-      </div>
-    </section>
 
-    <!-- CONSEQUENCES -->
-    <section class="section" id="consequences">
-      <div class="container">
-        <div class="section__head">
-          <h2>Consequences of Unreported Crime</h2>
-          <p class="muted">What underreporting does to victims, communities, and policy.</p>
-        </div>
+<section class="section light" id="types">
 
-        <div class="cards">
-          <article class="card">
-            <h3>Misleading crime statistics</h3>
-            <p>Official data underestimates harm, causing resource misallocation and weak responses.</p>
-          </article>
-          <article class="card">
-            <h3>Repeat offending increases</h3>
-            <p>No report often means no investigation—reducing risk for offenders and enabling repeats.</p>
-          </article>
-          <article class="card">
-            <h3>Victims miss support</h3>
-            <p>Reporting can unlock services like protection orders, counseling referrals, and compensation.</p>
-          </article>
-          <article class="card">
-            <h3>Institutional trust falls</h3>
-            <p>When people expect dismissal or harm from reporting, cooperation declines and safety worsens.</p>
-          </article>
-          <article class="card">
-            <h3>Policy becomes weaker</h3>
-            <p>Hidden harms (DV, harassment, fraud) get ignored because the data looks “low.”</p>
-          </article>
-          <article class="card">
-            <h3>Community impact spreads</h3>
-            <p>Unaddressed harm changes behavior: fear, avoidance, and normalization of abuse.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+<h2>Types of Crime</h2>
 
-    <!-- POST: CONSEQUENCES -->
-    <section class="section section--alt" id="post-consequences">
-      <div class="container">
-        <div class="section__head">
-          <h2>Post: The Real Costs of Unreported Crime</h2>
-          <p class="muted">Consequences + examples to support each (required).</p>
-        </div>
+<div class="cards">
 
-        <article class="panel">
-          <ul class="bullet">
-            <li><strong>Misleading statistics:</strong> If school harassment is not reported, leadership may claim the campus is “safe,” delaying policy changes.</li>
-            <li><strong>Repeat offenders:</strong> An abuser continues harming others because earlier incidents were never documented or reported.</li>
-            <li><strong>Victims without support:</strong> A cyber scam victim doesn’t report and never receives guidance on freezing credit or recovering identity documents.</li>
-            <li><strong>Community distrust:</strong> If people see cases dismissed, they stop cooperating with investigations, making everyone less safe.</li>
-          </ul>
+<div class="crime-card">
+<img src="images/violence.jpg">
+<h3>Violent Crime</h3>
+<p>Crimes involving force or the threat of force such as assault or robbery.</p>
+</div>
 
-          <div class="callout">
-            <h3>Bottom line</h3>
-            <p>Underreporting hides harm, lowers accountability, and blocks real solutions.</p>
-          </div>
-        </article>
-      </div>
-    </section>
+<div class="crime-card">
+<img src="images/property.jpg">
+<h3>Property Crime</h3>
+<p>Crimes where someone takes or damages property without using violence.</p>
+</div>
 
-    <!-- PROMOTE CLASS -->
-    <section class="section" id="take-class">
-      <div class="container">
-        <div class="section__head">
-          <h2>Why Students Should Take Criminology</h2>
-          <p class="muted">Promoting the class with real value (not cheesy).</p>
-        </div>
+<div class="crime-card">
+<img src="images/cybercrime.jpg">
+<h3>Cybercrime</h3>
+<p>Crimes that happen online such as scams, hacking, or identity theft.</p>
+</div>
 
-        <div class="grid grid--2">
-          <article class="panel">
-            <h3>What you learn</h3>
-            <ul class="bullet">
-              <li><strong>Critical thinking:</strong> analyze causes, patterns, and bias using evidence.</li>
-              <li><strong>Media literacy:</strong> separate facts from fear-driven headlines.</li>
-              <li><strong>Systems thinking:</strong> understand law, inequality, justice, and prevention.</li>
-              <li><strong>Real-life relevance:</strong> online safety, relationships, and community responsibility.</li>
-            </ul>
-          </article>
-          <article class="panel">
-            <h3>Where it can lead</h3>
-            <ul class="bullet">
-              <li>Law, psychology, forensics</li>
-              <li>Cybersecurity and fraud prevention</li>
-              <li>Public policy and community safety</li>
-              <li>Journalism, research, and social work</li>
-            </ul>
-            <div class="mini big">
-              <div class="mini__tag">Final message</div>
-              <div class="mini__text">Criminology helps you understand harm—and how societies reduce it.</div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
+</div>
 
-    <!-- SOURCES -->
-    <section class="section" id="sources">
-      <div class="container">
-        <div class="section__head">
-          <h2>Citations / Sources</h2>
-          <p class="muted">Use only sources you actually referenced for your case study and stats.</p>
-        </div>
-        <article class="panel">
-          <ul class="bullet">
-            <li>UNODC (United Nations Office on Drugs and Crime) — crime data and reports</li>
-            <li>BJS / NCVS (if using U.S. victimization data)</li>
-            <li>Official national statistics agencies (for your country)</li>
-            <li>Government cyber agencies (for cyber cases)</li>
-            <li>Reputable news outlets or court documents for the case study</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-  </main>
+</section>
 
-  <footer class="footer">
-    <div class="container footer__inner">
-      <p class="small muted">© <span id="year"></span> Criminology Insights • Built for a criminology class project.</p>
-      <a class="small" href="#top">Back to top ↑</a>
-    </div>
-  </footer>
 
-  <script src="script.js"></script>
+<section class="section" id="case">
+
+<h2>Case Study: Online Banking Scam</h2>
+
+<p class="text">
+A large phishing scam targeted bank customers by sending messages that looked like official bank alerts. 
+Victims were told their accounts had security issues and were asked to log in immediately.
+</p>
+
+<p class="text">
+The provided link led to a fake website designed to steal login information. Once criminals gained access,
+they transferred money out of victims’ accounts.
+</p>
+
+<p class="text">
+Cases like this show how crime is evolving. Technology allows offenders to reach thousands of people quickly,
+while victims often feel embarrassed and never report what happened.
+</p>
+
+</section>
+
+
+<section class="section light" id="unreported">
+
+<h2>Why Crimes Go Unreported</h2>
+
+<div class="grid">
+
+<div>
+
+<h3>Personal Reasons</h3>
+
+<ul>
+<li>Fear of retaliation</li>
+<li>Embarrassment or shame</li>
+<li>Belief that nothing will change</li>
+</ul>
+
+</div>
+
+<div>
+
+<h3>Social Reasons</h3>
+
+<ul>
+<li>Cultural stigma</li>
+<li>Lack of trust in authorities</li>
+<li>Language or legal barriers</li>
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section" id="consequences">
+
+<h2>Consequences of Unreported Crime</h2>
+
+<ul class="large-list">
+
+<li>Crime statistics become inaccurate</li>
+<li>Offenders are more likely to repeat crimes</li>
+<li>Victims may not receive support</li>
+<li>Communities lose trust in institutions</li>
+
+</ul>
+
+</section>
+
+
+<section class="section light" id="class">
+
+<h2>Why Take Criminology?</h2>
+
+<p class="text">
+Criminology helps students understand real social problems. Instead of relying on stereotypes or headlines,
+the subject looks at evidence, patterns, and causes of crime.
+</p>
+
+<p class="text">
+Students interested in law, psychology, politics, journalism, or cybersecurity often find criminology useful
+because it connects theory with real world issues.
+</p>
+
+</section>
+
+
+<footer>
+
+<p>Criminology Website Project</p>
+
+</footer>
+
 </body>
 </html>
