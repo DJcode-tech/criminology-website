@@ -114,6 +114,7 @@ body{
   filter: brightness(50%) contrast(1.05);
 }
 
+/* ✅ FIX: overlay should not block clicks */
 .hero::after{
   content:"";
   position:absolute;
@@ -121,16 +122,20 @@ body{
   background:
     radial-gradient(900px 380px at 50% 0%, rgba(34,211,238,.28), transparent 60%),
     linear-gradient(to bottom, rgba(2,6,23,.20), rgba(2,6,23,.72));
+  pointer-events: none; /* <- this is the key */
 }
 
 .hero .wrap{
   position:relative;
   padding: 86px 24px;
+  z-index: 2; /* ✅ ensure content is above background layers */
 }
 
 .hero-text{
   max-width: 760px;
   color: #fff;
+  position: relative;
+  z-index: 3; /* ✅ extra safety */
 }
 
 .hero h1{
@@ -159,6 +164,8 @@ body{
   border: 1px solid rgba(34,211,238,.38);
   box-shadow: 0 14px 30px rgba(0,0,0,.25);
   transition: transform .15s ease, background .15s ease;
+  position: relative;
+  z-index: 4; /* ✅ make sure it’s clickable */
 }
 
 .button:hover{
